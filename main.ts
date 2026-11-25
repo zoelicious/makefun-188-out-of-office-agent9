@@ -1,6 +1,7 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import path from "node:path";
 
+// The inbox can wait; the punchline is that the fisherman never left the dock.
 const text = "Gone fishing for my own attention span. Back Monday, or whenever it bites.";
 const outDir = process.env.MAKEFUN_OUTPUT_DIR
   ? path.resolve(process.env.MAKEFUN_OUTPUT_DIR)
